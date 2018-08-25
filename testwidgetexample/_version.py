@@ -4,7 +4,7 @@
 # Copyright (c) Xiaofan Li.
 # Distributed under the terms of the Modified BSD License.
 
-version_info = (1, 0, 8, 'dev')
+version_info = (1, 0, 9, 'dev')
 __version__ = ".".join(map(str, version_info))
 
 # The version of the attribute spec that this package
@@ -13,4 +13,4 @@ __version__ = ".".join(map(str, version_info))
 #
 # Update this value when attributes are added/removed from
 # your models, or serialized format changes.
-EXTENSION_SPEC_VERSION = '1.0.8'
+EXTENSION_SPEC_VERSION = '1.0.9'

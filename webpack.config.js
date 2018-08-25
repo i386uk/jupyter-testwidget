@@ -10,26 +10,26 @@ const path = require('path');
 const pkg = require('./package.json');
 
 module.exports = [
-    {
-        mode: "production",
-        devtool: "source-map",
-        entry: "./src/index.ts",
-        output: {
-            filename: "index.js",
-            path: path.resolve(__dirname, "dist"),
-            publicPath: "https://unpkg.com/jupyter-testwidget@" + pkg.version + "/dist/",
-        },
-        resolve: {
-            // Add `.ts` and `.tsx` as a resolvable extension.
-            extensions: [".ts", ".tsx", ".js"]
-        },
-        module: {
-            rules: [
-                // all files with a `.ts` or `.tsx` extension will be handled by `ts-loader`
-                { test: /\.tsx?$/, loader: "ts-loader" }
-            ]
-        }
-    },
+    // {
+    //     mode: "production",
+    //     devtool: "source-map",
+    //     entry: "./src/index.ts",
+    //     output: {
+    //         filename: "index.js",
+    //         path: path.resolve(__dirname, "dist"),
+    //         publicPath: "https://unpkg.com/jupyter-testwidget@" + pkg.version + "/dist/",
+    //     },
+    //     resolve: {
+    //         // Add `.ts` and `.tsx` as a resolvable extension.
+    //         extensions: [".ts", ".tsx", ".js"]
+    //     },
+    //     module: {
+    //         rules: [
+    //             // all files with a `.ts` or `.tsx` extension will be handled by `ts-loader`
+    //             { test: /\.tsx?$/, loader: "ts-loader" }
+    //         ]
+    //     }
+    // },
   {
     // Notebook extension
     entry: './src/index.ts',
