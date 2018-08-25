@@ -17,7 +17,7 @@ module.exports = [
         output: {
             filename: "index.js",
             path: path.resolve(__dirname, "dist"),
-            publicPath: "https://unpkg.com/jupyter-testwidget@" + pkg.version + "/lib/",
+            publicPath: "https://unpkg.com/jupyter-testwidget@" + pkg.version + "/dist/",
         },
         resolve: {
             // Add `.ts` and `.tsx` as a resolvable extension.
