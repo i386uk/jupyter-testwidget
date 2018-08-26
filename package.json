@@ -1,6 +1,6 @@
 {
   "name": "jupyter-testwidget",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "test",
   "keywords": [
     "jupyter",
@@ -14,10 +14,9 @@
   },
   "license": "BSD-3-Clause",
   "author": "",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
-    "dist/*",
     "lib/*"
   ],
   "repository": {

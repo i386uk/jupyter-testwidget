@@ -21,7 +21,7 @@ import {
   EXTENSION_SPEC_VERSION
 } from './version';
 
-const EXTENSION_ID = 'test.extension.example';
+const EXTENSION_ID = 'jupyter-testwidget:main';
 
 
 /**

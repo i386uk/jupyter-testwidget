@@ -5,7 +5,7 @@
     "lib": ["dom", "es5", "es2015.promise", "es2015.iterable"],
     "noEmitOnError": true,
     "strictNullChecks": true,
-    "module": "amd",
+    "module": "commonjs",
     "moduleResolution": "node",
     "target": "ES5",
     "outDir": "../lib",
